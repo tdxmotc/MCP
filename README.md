@@ -1,11 +1,15 @@
 # TDX MCP服務
 透過Model Context Protocol(MCP)標準介面提供AI工具與TDX資料服務之間的無縫整合，讓TDX會員能以自然語言與TDX平臺提供的資料做互動。
 
-
 ## 提供的MCP服務
 
 ### 臺鐵與高鐵
 提供雙鐵班次查詢、票價查詢、網頁導訂票功能。
+[點我觀看更多說明](https://github.com/tdxmotc/MCP/tree/main/Rail)。
+
+### 道路事件
+提供查詢縣市道路、省道與高速公路道路事件查詢。
+[點我觀看更多說明](https://github.com/tdxmotc/MCP/tree/main/Event)。
 
 ## 使用方式
 
