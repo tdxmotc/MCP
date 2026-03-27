@@ -32,6 +32,13 @@ npm i mcp-remote
 ```
 
 4. 加入MCP服務運作設定。
+此處以臺鐵與高鐵MCP服務為例，若使用其他運具MCP服務，請將MCP服務連結改為對應的位址:  
+
+|運具|MCP服務URL|
+| ------ | ------ |
+|臺鐵與高鐵|https://tdx.transportdata.tw/tdx-mcp/rail|
+|道路事件|https://tdx.transportdata.tw/tdx-mcp/event|
+
 
 ```markdown
 {
@@ -55,7 +62,7 @@ npm i mcp-remote
 }
 ```
 
-5. 關閉Claude Desktop並重新啟動。
+5. 完整關閉Claude Desktop並重新啟動。
 
 > [!TIP]
 > 請務完整退出Claude Desktop並重啟，若只單純關閉Claude Desktop視窗則可能無法正確載入MCP工具。
