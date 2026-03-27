@@ -35,13 +35,13 @@ npm i mcp-remote
 %APPDATA%\Roaming\Claude\claude_desktop_config.json
 ```
 
-4. 加入MCP服務運作設定。
+4. 調整Claude設定檔，加入MCP服務運作設定。
 此處以臺鐵與高鐵MCP服務為例，若使用其他運具MCP服務，請將MCP服務連結改為對應的位址:  
 
 |運具|MCP服務URL|
 | ------ | ------ |
-|臺鐵與高鐵|https://tdx.transportdata.tw/tdx-mcp/rail|
-|道路事件|https://tdx.transportdata.tw/tdx-mcp/event|
+|臺鐵與高鐵|`https://tdx.transportdata.tw/tdx-mcp/rail`|
+|道路事件|`https://tdx.transportdata.tw/tdx-mcp/event`|
 
 
 ```markdown
@@ -66,10 +66,10 @@ npm i mcp-remote
 }
 ```
 
-5. 完整關閉Claude Desktop並重新啟動。
+5. 若Claude Desktop應用程式在修改設定檔之前已經開啟，則需在設定檔調整完之後至桌面右下角點選Claude Desktop圖示，右鍵選擇Quit完整關閉Claude Desktop並重新開啟應用程式。
 
 > [!TIP]
-> 請務完整退出Claude Desktop並重啟，若只單純關閉Claude Desktop視窗則可能無法正確載入MCP工具。
+> 請務完整退出Claude Desktop並重啟，若只單純關閉Claude Desktop視窗則無法正確載入MCP工具。
 
 ![image.png](images/image_0.png)
 
